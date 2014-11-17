@@ -1,0 +1,28 @@
+{
+  "name": "qstorage",
+  "version": "0.0.1",
+  "description": "Web storage with quota",
+  "homepage": "https://github.com/arokor/qstorage",
+  "authors": [
+    "Aron Kornhall <aron@kornhall.se>"
+  ],
+  "main": "lib/qstorage.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "quota",
+    "localStorage",
+    "sessionStorage"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

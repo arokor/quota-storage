@@ -1,0 +1,31 @@
+{
+  "name": "qstorage",
+  "version": "0.0.1",
+  "description": "Web storage with quota",
+  "main": "lib/qstorage.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "^2.0.1",
+    "chai": "^1.9.2"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arokor/qstorage.git"
+  },
+  "keywords": [
+    "qstorage",
+    "localStorage",
+    "sessionStorage"
+  ],
+  "author": "Aron Kornhall <aron@kornhall.se>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arokor/qstorage/issues"
+  },
+  "homepage": "https://github.com/arokor/qstorage"
+}
