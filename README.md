@@ -1,6 +1,6 @@
 #QuotaStorage
 
-QuotaQStorage provides a possibility to set a custom quota for the web storage API
+QuotaStorage provides a possibility to set a custom quota for the web storage API
 e.g. localStorage. The quota is defined in characters and both keys and values
 are used for the calculation. Can be used together with the module
 [NSStorage](https://github.com/arokor/nsstorage) to create namespaced storage
