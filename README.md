@@ -1,13 +1,13 @@
-#QStorage
+#QuotaStorage
 
-QStorage provides a possibility to set a custom quota for the web storage API
+QuotaQStorage provides a possibility to set a custom quota for the web storage API
 e.g. localStorage. The quota is defined in characters and both keys and values
 are used for the calculation. Can be used together with the module
 [NSStorage](https://github.com/arokor/nsstorage) to create namespaced storage
 instances with individual quotas.
 
 ##Usage
-    var quotaStorage = QStorage.quotaStorage(10, localStorage);
+    var quotaStorage = QuotaStorage.quotaStorage(10, localStorage);
 
     quotaStorage.setItem('key', 'val'); // ok 6 chars are now in use
     quotaStorage.setItem('key2', 'val2'); // throws Error
@@ -21,15 +21,15 @@ regarding this library.
 ##Install
 Browserify
 
-    npm install qstorage
+    npm install quota-storage
 
 Bower
 
-    bower install qstorage
+    bower install quota-storage
 
 Global
 
-    download qstorage.js and include it in your app
+    download quota-storage.js and include it in your app
 
 ##Test
     npm test

@@ -1,12 +1,12 @@
 {
-  "name": "qstorage",
+  "name": "quota-storage",
   "version": "0.0.1",
   "description": "Web storage with quota",
-  "homepage": "https://github.com/arokor/qstorage",
+  "homepage": "https://github.com/arokor/quota-storage",
   "authors": [
     "Aron Kornhall <aron@kornhall.se>"
   ],
-  "main": "lib/qstorage.js",
+  "main": "lib/quota-storage.js",
   "moduleType": [
     "amd",
     "globals",
